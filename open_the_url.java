@@ -8,7 +8,6 @@ public class open_the_url {
         WebDriver driver;
         WebDriverManager.edgedriver().setup();
         driver = new EdgeDriver();
-        //it is a new file to compare witrh older version
         driver.get("https://lms.kluniversity.in/login/index.php");
         driver.findElement(By.id("username")).sendKeys("2100030258");
         driver.findElement(By.id("password")).sendKeys("///////");
